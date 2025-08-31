@@ -23,13 +23,13 @@
 #define TVP1 4
 #define TVP2 5
 
-#define _UNDO       _C(Z)
-#define _CUT        _C(X)
-#define _COPY       _C(C)
-#define _PASTE      _C(V)
-#define _FIND       _C(F)
-#define _FIND_NEXT  _C(G)
-#define _FIND_PREV  _C(LS(G))
+#define _UNDO       LC(Z)
+#define _CUT        LC(X)
+#define _COPY       LC(C)
+#define _PASTE      LC(V)
+#define _FIND       LC(F)
+#define _FIND_NEXT  LC(G)
+#define _FIND_PREV  LC(LS(G))
 
 #define LEFT_HAND_KEYS      \
         0  1  2  3  4       \
